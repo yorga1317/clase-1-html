@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tablas</title>
+    <body>
+        <style>
+            .tabla2{
+                width: 70%;
+                border: 1px solid black;
+                border-collapse: collapse;
+                th, td{
+                    border: 1px solid black;
+                }
+                .Oso{
+                    text-align: center;
+                }
+                .Animal{
+                    text-align: center;
+                    background-color: red;
+                }
+
+            }
+
+            .Tabla3{
+                width: 70%;
+                border: 1px solid rgb(170, 209, 193);
+                border-collapse: collapse;
+                th{
+                    border: 1px solid rgb(159, 191, 209);
+                    text-align: center;
+                    background-color: antiquewhite;
+                }
+                td{
+                    border: 1px solid rgb(159, 191, 209);
+                    background-color: antiquewhite;
+                }
+                .total{
+
+                    text-align: center;
+                }
+            }
+
+            .tabla1{
+                width: 70%;
+                border: 1px solid black;
+                border-collapse: collapse;
+                th{
+                    border: 1px solid rgb(19, 19, 19);
+                    text-align: center;
+                    background-color: antiquewhite;
+                }
+                td{
+                    border: 1px solid rgb(0, 0, 0);
+                    background-color: antiquewhite;
+                    text-align: center;
+                }
+                .iz{
+                    text-align: left;
+                }
+            }
+        </style>
+        <h2>Tabla de población</h2>
+        <table class="tabla1">
+            <tr>
+                <th rowspan="3">Personal Tecnico en enfermeria</th>
+                <th colspan="3">población</th>
+            </tr>
+            <tr>
+                <th colspan="2">SEXO</th>
+                <th rowspan="2">Total</th>
+            </tr>
+            <tr>
+                <th>HOMBRES</th>
+                <th>MUJERES</th>
+            </tr>
+            <tr>
+                <td class="iz">Consulta externas</td>
+                <td>02</td>
+                <td>18</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td class="iz">Hozpitalización</td>
+                <td>06</td>
+                <td>14</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td class="iz">Laboratorios y otros</td>
+                <td>02</td>
+                <td>18</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td class="iz">total</td>
+                <td>10</td>
+                <td>50</td>
+                <td>60</td>
+            </tr>
+        </table>
+
+        <h2>Tabla de peligro de extinción</h2>
+
+        <table class="tabla2">
+            <tr>
+                <th colspan="4">Animales en peligro de extinción</th>
+            </tr>
+
+            <tr>
+                <th>Nombre</th>
+                <th>Cabeza</th>
+                <th>Previsión 2010</th>
+                <th>Previsión 2020</th>
+            </tr>
+
+            <tr>
+                <td>Ballena</td>
+                <td>6000</td>
+                <td>4000</td>
+                <td>1500</td>
+            </tr>
+
+            <tr>
+                <td>Oso Pardo</td>
+                <td>50</td>
+                <td class="Animal", rowspan="2", colspan="2">0</td>
+                
+            </tr>
+
+            <tr>
+                <td>Lince</td>
+                <td>10</td>
+                
+                
+            </tr>
+
+            <tr>
+                <td>Tigre</td>
+                <td>300</td>
+                <td colspan="2", class="Oso">210</td>
+                
+            </tr>
+        </table>
+        <h2>Su Pedido</h2>
+        <table class="Tabla3">
+            <tr>
+                <th>Nombre producto</th>
+                <th>Precio unitario</th>
+                <th>Unidades</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>Reproductor MP3 (80GB)</td>
+                <td>192.02</td>
+                <td>1</td>
+                <td>192.02</td>
+            </tr>
+            <tr>
+                <td>Fundas de colores</td>
+                <td>2.50</td>
+                <td>5</td>
+                <td>12.50</td>
+            </tr>
+            <tr>
+                <td>Reproductor de radio & control remoto</td>
+                <td>12.99</td>
+                <td>1</td>
+                <td>12.99</td>
+            </tr>
+            <tr>
+                <th class="total">total</th>
+                <td>-</td>
+                <td>7</td>
+                <td>207.51</td>
+            </tr>
+        </table>
+    </body>
+</head>
