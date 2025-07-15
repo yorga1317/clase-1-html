@@ -82,6 +82,10 @@ En las etiquetas tiene jerarquia tiene su orden.
         - < table border="1"> **-->** **Añadir marco** funcion antigua
     - /table >
     - < a href="" > < /a > **-->** **se utiliza para crear enlaces o hipervínculos**
+    - class="" **-->** **Es para tener una etiqueta aparte de los demas para poner estilo en css**
+        ejemplo:
+        - < th class="th" > < /th >
+             
     < /body >
 
 
