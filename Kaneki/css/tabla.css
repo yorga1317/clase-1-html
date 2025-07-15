@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+.ta{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ta:hover{
+    background-color: rgba(228, 220, 208, 0.9);
+}
+.tabla1{
+    background-color: rgb(205, 92, 92);
+    color: rgb(0, 0, 0);
+    margin: 0 auto 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tabla2{
+    background-color: rgb(240, 128, );
+    color: rgb(0, 0, 0);
+    margin: 0 auto 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}

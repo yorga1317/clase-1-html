@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+</head>
+<body>
+    <style>
+        *{
+            margin-top: 25px;
+            margin: 10px;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+        }
+
+        .box-content {
+            border: 1px solid black;
+            width: 400px;
+            height: 400px;
+            padding: 10px;
+            box-sizing: content-box;
+            outline: 5px dotted blue;
+            outline-offset: 5px;
+        }
+
+        .box-sizing {
+            border: 5px dotted black;
+            width: 400px;
+            height: 400px;
+            padding: 10px;
+            box-sizing: border-box;
+            outline: 5px solid red;
+            outline-offset: 5px;
+        }
+    </style>
+    
+    <div class="box-content">
+        <div class="box">
+            <h1 class="head">Lorem ipsum dolor sit.</h1>
+        </div>
+    </div>
+    <br>
+    <div class="box-sizing">
+        <div class="box">
+            <h1 class="head">Lorem ipsum dolor sit.</h1>
+        </div>
+    </div>
+</body>
+</html>
