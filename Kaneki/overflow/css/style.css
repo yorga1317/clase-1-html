@@ -1,0 +1,123 @@
+body {
+    background-image: url("../Snoopy\ Fondos\ De\ Pantalla\ Iphone.jpeg");
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size:auto; /* Hace que la imagen cubra todo el elemento */
+    background-position: center center; /* Centra la imagen */
+    background-attachment: fixed; /* Fija la imagen al fondo, no se mueve con el scroll */
+}
+.center{
+    width: 600px;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    font-family: Arial;
+    color: rgb(221, 111, 221);
+}
+
+.container{
+    margin: auto;
+    box-shadow: -4px 4px 5px rgb(224, 133, 224);
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 600px; /*ancho*/
+    /*height: 90px; /*Largo*/
+    background-color: bisque;
+    border: 5px solid blueviolet;
+    padding: 10px 20px;
+    overflow: hidden; /* Averiguar y ponerlo en README.md*/
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.container:hover{
+    overflow: auto;
+    white-space: normal;
+    max-height: 200px;
+}
+.box-px{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 100px;
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+.box-in{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 2in;
+    background-color: rgb(177, 233, 125);
+    overflow: hidden;
+}
+.box-cm{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 2.54cm;
+    background-color: rgb(138, 227, 243);
+    overflow: hidden;
+}
+.box-mm{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 25.4mm;
+    background-color: rgb(221, 145, 240);
+    overflow: hidden;
+}
+.box-pt{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 50pt;
+    background-color: rgb(238, 175, 159);
+    overflow: hidden;
+}
+.box-pc{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 20pc;
+    background-color: rgb(233, 226, 125);
+    overflow: hidden;
+}
+:root{
+    font-size: 20px;
+}
+.body{
+    font-size: 20px;
+}
+.box-em{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 2em;
+    background-color: rgb(151, 230, 155);
+    overflow: hidden;
+}
+.box-rem{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 20rem;
+    background-color: rgb(167, 206, 238);
+    overflow: hidden;
+}
+.box-per{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 20per;
+    background-color: rgb(255, 176, 176);
+    overflow: hidden;
+}
+.box-vh{
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(240, 148, 224);
+    height: 10vh;
+}
+
+.box-vw{
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+    width: 30vw;
+    background-color: rgb(240, 148, 224);
+}
